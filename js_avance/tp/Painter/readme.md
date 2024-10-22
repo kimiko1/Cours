@@ -1,4 +1,4 @@
-# TP1 : Todolist
+# TP2 : Canvas
 
 ## Rendu
 
@@ -33,7 +33,7 @@ Lorsque l'on clique sur le bouton "Effacer" on supprime tout ce qu'il y a dans l
 
 Créer un bouton pour télécharger l'image ou la sauvegarder pour pouvoir continuer le dessin plus tard.
 
-## Documentation
+## Liens utiles
 
 * [Canvas](https://developer.mozilla.org/fr/docs/Web/API/Canvas_API)
-* 
+* [Évenement mousemove](https://developer.mozilla.org/fr/docs/Web/API/Element/mousemove_event)
