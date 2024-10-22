@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Canvas Drawing</title>
+</head>
+
+<body>
+    <h1>Canvas Drawing</h1>
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+
+    <div class="controls">
+        <select id="shapeSelector">
+            <option value="freehand">Dessin libre</option>
+            <option value="line">Ligne</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="circle">Cercle</option>
+        </select>
+
+        <div class="colors">
+            <div class="color" style="background-color: gray;" data-color="gray"></div>
+            <div class="color" style="background-color: pink;" data-color="pink"></div>
+            <div class="color" style="background-color: black;" data-color="black"></div>
+            <div class="color" style="background-color: red;" data-color="red"></div>
+            <div class="color" style="background-color: green;" data-color="green"></div>
+            <div class="color" style="background-color: blue;" data-color="blue"></div>
+            <div class="color" style="background-color: violet;" data-color="violet"></div>
+            <div class="color" style="background-color: orange;" data-color="orange"></div>
+            <div class="color" style="background-color: yellow;" data-color="yellow"></div>
+            <div class="color" style="background-color: brown;" data-color="brown"></div>
+        </div>
+        <input type="range" id="sizeSlider" min="1" max="10" value="5">
+
+        <div class="buttons cookie-regular">
+            <button class="button" id="clearBtn">Effacer</button>
+            <input class="button" type="file" id="backgroundImage" accept="image/*">
+            <input class="button" type="color" id="backgroundColor" value="#ffffff">
+            <button class="button" id="saveBtn">Sauvegarder</button>
+        </div>
+
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
