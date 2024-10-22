@@ -1,5 +1,5 @@
 import { Rectangle } from "./classes/Rectangle.js";
-import { Circle } from "./classes/circle.js";
+import { Circle } from "./classes/Circle.js";
 
 // On crée une instance de Rectangle
 const rectangle = new Rectangle(100, 100, "red", 50, 150);
