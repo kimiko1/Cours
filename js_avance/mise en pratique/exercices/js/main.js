@@ -1,4 +1,4 @@
-import { Rectangle } from "./classes/rectangle.js";
+import { Rectangle } from "./classes/Rectangle.js";
 import { Circle } from "./classes/circle.js";
 
 // On crée une instance de Rectangle

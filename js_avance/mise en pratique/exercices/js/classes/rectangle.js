@@ -1,4 +1,4 @@
-import { Shape } from "./shape.js";
+import { Shape } from "./Shape.js";
 
 export class Rectangle extends Shape{
     // Définition des propriétés
