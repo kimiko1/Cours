@@ -1,0 +1,35 @@
+nav {
+   padding: 20px 0 20px 0;
+   margin-bottom: 10px;
+   box-shadow: 1px 9px 20px rgb(147 147 147)
+}
+
+ul, li, a {
+    list-style: none;
+    text-decoration: none;
+    color: grey;
+}
+
+.links {
+    gap: 60px;
+    text-wrap: nowrap;
+}
+
+.logos {
+    position: absolute;
+    left: 90vw;
+    column-gap: 20px;
+    opacity: 40%;
+    padding: 0;
+}
+
+
+li:hover, a:hover {
+    opacity: 100%;
+    color: black
+}
+
+.logos:hover {
+    opacity: 100%;
+    color: black
+}

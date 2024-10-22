@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    margin-bottom: 5%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.center {
+    justify-content: center;
+}
+
+.box {
+    flex: 1;
+}
+
+.article {
+    height: 50%;
+    margin: 0 0 6% 15%;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.langage {
+    width: 10%;
+    height: 10%;
+}

@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white
+}
+
+body {
+    background-image: linear-gradient(180deg,
+            hsl(240deg 62% 4%) 0%,
+            hsl(221deg 67% 5%) 5%,
+            hsl(204deg 77% 5%) 12%,
+            hsl(185deg 79% 6%) 19%,
+            hsl(167deg 87% 6%) 27%,
+            hsl(168deg 91% 8%) 36%,
+            hsl(167deg 93% 11%) 46%,
+            hsl(167deg 94% 14%) 56%,
+            hsl(167deg 98% 16%) 66%,
+            hsl(185deg 88% 13%) 75%,
+            hsl(203deg 80% 10%) 84%,
+            hsl(222deg 72% 7%) 92%,
+            hsl(240deg 62% 4%) 100%);
+}
+
+header {
+    padding: 20px
+}
+
+footer {
+    gap: 15px;
+}
+
+/* Font size */
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+
+.d-flex {
+    display: flex
+}
+
+.box {
+    flex: 1;
+}
+
+.justify-content-center {
+    justify-content: center
+}
+
+.direction-column {
+    flex-direction: column
+}
+
+
+.hero {
+    align-items: center;
+}
+
+.profile {
+    flex-wrap: wrap-reverse;
+    margin: 10% 0 10% 0;
+    align-items: center;
+}
+
+.profile-img {
+    align-items: center;
+
+}
+
+.profile-info {
+    margin-left: 15%;
+    margin-top: 20px
+}
+
+.profile-info p {
+    margin: 13px 0;
+    width: 67%;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-right: 10px
+}
+
+.contact-btn {
+    background-color: #B3F0FF;
+    color: black;
+}
+
+.cv-btn {
+    border: solid;
+    border-color: #B3F0FF;
+}
+
+.about {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content {
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about-content-text {
+    margin: 0 15% 0 15%;
+}
+
+.about-links {
+    padding-top: 40%;
+    gap: 30px;
+}
+
+.about-content-illustration {
+    width: 500px;
+}
+
+.skills {
+    padding: 50px 20px;
+    text-align: center
+}
+
+.skills-icons {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills-icons i {
+    font-size: 10rem;
+}
+
+.timeline {
+    padding: 50px 20px;
+    text-align: center
+}
+
+.timeline-list {
+    list-style: none;
+    padding: 0
+}
+
+.timeline-list li {
+    margin: 10px 0;
+}
+
+.projects-container {
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.project {
+    background-color: #1f2d3a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px
+}
+
+.project-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #B3F0FF;
+    color: black;
+}
+
+.project-button a {
+    margin-top: 2%;
+}
+
+.footer {
+    gap: 15%;
+    flex-wrap: wrap;
+}
+
+.footer img {
+    width: 10vw;
+}
+
+
+
+@media (max-width: 768px) {}
+
+@media (max-width: 992px) {
+    .profile {
+        flex-direction: column-reverse;
+    }
+
+    .profile-info {
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .profile h1 {
+        align-items: center;
+    }
+
+    .about-links {
+        padding-top: 5%;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 1360px) {
+
+    .project {
+        margin: 0 15px 15px 0;
+    }
+
+
+
+    .footer-illustration {
+        content-visibility: hidden;
+    }
+}

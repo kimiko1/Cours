@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #9b948e;
+}
+
+header {
+    background-image: url("../img/paysage.avif");
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+h2 {
+    margin: 2vw 2vw;
+    border-bottom: #d3d3d3 solid;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    background-color: #d3d3d3;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+
+.white {
+    color: white;
+}
+
+.space-around {
+    justify-content: space-around;
+}

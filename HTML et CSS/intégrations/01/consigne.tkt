@@ -1,0 +1,22 @@
+Intégration de maquette
+
+Navbar
+-------------
+Espacement des lettres représentant le logo
+Effet au hover des liens de navigation
+
+header
+------------------
+image du header en background url
+Texte sur image
+
+Main-content
+-------------
+Le contenu du main est dans un container (width : 90%)
+Alignement des cards en utilisant flexbox
+Largeur du bouton équivalente à la card
+Effet au hover sur le lien du bouton
+
+footer
+----------------
+Texte du footer centré

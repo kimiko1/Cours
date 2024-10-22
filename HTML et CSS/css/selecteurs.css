@@ -1,0 +1,75 @@
+/* 
+Notion de cascade 
+Ordre croissant de priorité (de la plus basse à la plus haute)
+
+1- Propriété du navigateur
+2- Feuille de style externe
+3- Feuille de style interne
+4- Les styles intégrés aux balises
+*/
+
+/* Le * est le sélecteur universel */
+* {
+    /* A faire tout le temps */
+    box-sizing: border-box;
+    /* Enlever toute les marges */
+    margin: 0;
+}
+
+body {
+    /* Changer la couleur de l'arrière plan */
+    background-color: rgb(61, 111, 155);
+}
+
+nav {
+    background-color: blue;
+    /* Changer la hauteur */
+    height: 100px;
+}
+
+/* La classe peut être réutilisé plusieurs fois */
+.paragraphe1 {
+    color: brown;
+}
+
+/* L'id ne peut être utilisé qu'une seule fois */
+#paragraphe2 {
+    background-color: black;
+    /* Changer la couleur du texte */
+    color: white;
+    /* 2 fois la taille du parent */
+    font-size: 2rem;
+}
+
+/* Ce style ne s'applique pas car la balise contient déjà du style qui est prioritaire */
+h2{
+    color: blue;
+}
+
+/* Tout les paragraphes présent dans articles */
+article > p{
+    color: red;
+}
+
+/* Que le premier enfant (p) de la balise article */
+article>p:first-child{
+    color: blue;
+}
+
+
+/* Que le dernier enfant (p) de la balise article */
+article>p:last-child{
+    color: yellow;
+}
+
+
+/* Que l'enfant (p) spécifier de la balise article en partant du début */
+article>p:nth-child(5){
+    color: blueviolet;
+}
+
+
+/* Que le dernier enfant (li) de la balise (ul) présent dans la balise (article) */
+article>ul>li:last-child{
+    color: blue;
+}
