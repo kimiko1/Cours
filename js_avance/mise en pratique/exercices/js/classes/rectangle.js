@@ -1,6 +1,6 @@
 import { Shape } from "./Shape.js";
 
-export class Rectangle extends Shape{
+export class Rectangle extends Shape {
     // Définition des propriétés
     #width;
     #height;
@@ -15,20 +15,26 @@ export class Rectangle extends Shape{
         this.#height = height;
     }
 
-        // Création de getter/setter pour accéder/modifier les propriétés privées
+    // Création de getter/setter pour accéder/modifier les propriétés privées
     get width() {
-            return this.#width;
-        }
-    
+        return this.#width;
+    }
+
     set width(width) {
-            this.#width = width;
-        }
-    
+        this.#width = width;
+    }
+
     get height() {
-            return this.#height;
-        }
-    
+        return this.#height;
+    }
+
     set height(height) {
-            this.#height = height;
-        }
+        this.#height = height;
+    }
+
+    draw(context) {
+        context.fillStyle = this.color;  // Définit la couleur
+        context.fillRect(this.x, this.y, this.width, this.height);  // Dessine un rectangle
+    }
+    
 }
