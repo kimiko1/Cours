@@ -1,0 +1,52 @@
+#canvas {
+    border: 1px solid black;
+}
+
+#colors ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color {
+    display: inline-block;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    margin: 0 0.5em;
+    cursor: pointer;
+}
+
+.color-black {
+    background-color: black;
+}
+
+.color-red {
+    background-color: firebrick;
+}
+
+.color-orange {
+    background-color: darkorange;
+}
+
+.color-yellow {
+    background-color: gold;
+}
+
+.color-green {
+    background-color: forestgreen;
+}
+
+.color-blue {
+    background-color: dodgerblue;
+}
+
+.color-purple {
+    background-color: mediumorchid;
+}
