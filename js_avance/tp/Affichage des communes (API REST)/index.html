@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communes de France</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Communes de France</h1>
+
+        <label for="regions">Sélectionnez une région :</label>
+        <select id="regions">
+           <option value="Sélectionnez une région">Sélectionnez une région</option>
+        </select>
+
+        <label for="departements">Sélectionnez un département :</label>
+        <select id="departements"></select>
+
+        <button id="show-communes">Afficher les communes</button>
+
+        <div id="communes"></div>
+
+        <button id="geo-btn">Me géolocaliser</button>
+        <div id="geo-info"></div>
+        <div id="map"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/geo.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
