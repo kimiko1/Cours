@@ -1,0 +1,66 @@
+/* Général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Bouton de géolocalisation */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Texte de l'adresse */
+#address-text {
+    font-size: 18px;
+    color: #333;
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+/* Texte d'erreur */
+#error-text {
+    color: #ff0000;
+    font-size: 16px;
+    background-color: #ffe0e0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Centrage */
+.container {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
